@@ -1,0 +1,126 @@
+/* section class='banner' */
+.banner {
+    height: 100vh;
+    background-image: url(img\main\backgraund.svg);
+    position: relative;
+    background-size: cover;
+}
+
+.backgraund {
+    width: 100vw;
+    position: absolute;
+    z-index: -2;
+}
+
+.main-banner {
+    margin: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 120px;
+    position: absolute;
+}
+
+.main-banner__text {
+    padding: 0 7rem;
+    text-align: center;
+    color: #fff;
+}
+
+/* section class="dignity" */
+.dignity {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+}
+
+.dignity-box {
+    display: flex;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    background-color: #ffffff;
+}
+
+.dignity-info {
+    padding: 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dignity-info__title {
+    display: block;
+    width: 100%;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    color: var(--black);
+    border-bottom: 1px solid var(--sgr)
+}
+
+.dignity-info__text {
+    margin: 1rem;
+    text-align: center;
+}
+
+/* section class="content" */
+
+.content {
+    padding-top: 5rem;
+}
+
+.content-block {
+    margin: 3rem 0;
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    align-items:center;
+}
+
+.content-block__text {
+    width: 50%;
+}
+
+/* section class="call" */
+
+
+.call-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding: 3rem 15%;
+    background-color: var(--sgr);
+    border-radius: var(--radius);
+}
+
+.call-box__text {
+    text-align: center;
+    max-width: 500px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--sgr);
+    outline: none;
+    resize: none;
+}
+
+textarea:hover,
+textarea:focus,
+textarea:active {
+    border: 1px solid var(--gr);
+}

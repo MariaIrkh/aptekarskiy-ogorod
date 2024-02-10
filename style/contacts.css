@@ -1,0 +1,55 @@
+.contacts-heading__img {
+    width: 50%;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.contacts-heading__title {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.contacts-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;;
+}
+
+.maps {
+    background-color: var(--sgr)
+}
+
+.maps {
+    background-color: var(--sgr);
+}
+
+.maps-block {
+    padding: 3rem 0;
+}
+
+#mp {
+    border-radius: var(--radius);
+    border: var(--border);
+    box-shadow: var(--shadow);
+}
+
+.team {
+    padding: 3rem 0;
+}
+
+.team-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+}
+
+.team-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-item__title {
+    text-align: center;
+    margin: 1rem 0;
+}

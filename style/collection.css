@@ -1,0 +1,57 @@
+.collection-heading {
+    margin: 5rem 0;
+}
+
+.collection-heading__title {
+    margin-bottom: 2rem;
+}
+
+.collection-info {
+    margin: 2rem 0;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.collection-info__img {
+    height: 60vh;
+    width: 50%;
+    object-fit: cover;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.collection-info__item {
+    width: 50%;
+}
+
+.call-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding: 3rem 15%;
+    background-color: var(--sgr);
+    border-radius: var(--radius);
+}
+
+.call-box__text {
+    text-align: center;
+    max-width: 500px;
+}
+
+.datail-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: var(--radius);
+    padding: 16px 32px;
+    box-shadow: var(--shadow);
+    background: var(--sgr);
+    cursor: pointer;
+    color: var(--gr);
+    border: var(--border);
+}

@@ -1,0 +1,137 @@
+@media screen and (max-width: 760px) {
+    .main-menu,
+    main-menu__link,
+    main-menu__link--activ {
+        display: none;
+    }
+
+    .social-link {
+        width: 100%;
+    }
+
+    .social-link::after {
+        content: "";
+        background-image: url(/icons/burger.svg);
+        width: 24px;
+        height: 24px;
+        margin-left: 30%;
+    }
+
+    .main-banner__text {
+        font-size: 14px;
+        padding: 10%;
+    }
+
+    .main-banner {
+        margin: 3rem;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .dignity-box {
+        display: none;
+    }
+
+    .content {
+        padding-top: 0;
+    }
+
+    .content-block {
+        flex-direction: column;
+    }
+
+    .content-video {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .content-block__text {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info {
+        display: none;
+    }
+
+    .accordion-block {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1 rem;
+    }
+
+    .accordion__title,
+    .accordion-info {
+        width: 100%;
+    }
+
+    .accordion__title {
+        text-align: center;
+    }
+    .photo-item__title {
+        font-size: 14px;
+    }
+
+    .feedback-info {
+        padding: 1 rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .feedback-item {
+        width: 50vw;
+    }
+
+    .collection-info {
+        height: 100%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .collection-info__img {
+        width: 100%;
+    }
+
+    .collection-info__item {
+        width: 100;
+    }
+
+    .contacts-wrapper {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contacts-heading__img {
+        width: 100%;
+    }
+
+    .team-info {
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;;
+    }
+    
+    .footer {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-link {
+        padding: 1rem;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
